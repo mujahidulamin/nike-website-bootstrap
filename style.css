@@ -1,6 +1,5 @@
-
-h1{
-    font-size: 60px;
+h1 {
+    font-size: 35px;
 }
 
 .nike-primary-color {
@@ -18,6 +17,17 @@ h1{
 .nike-bg-primary {
     background-color: #FFF9F4;
 }
+
+.nike-bg-secondary {
+    background-color: #F1F1F1;
+}
+
+.box-shadow {
+    background-color: white;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+
 /* button */
 .nike-button-color {
     background-image: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
@@ -28,5 +38,25 @@ h1{
     font-family: 'Roboto', sans-serif;
     border: 0px;
     padding: 10px 28px;
-    color:  #FFFFFF;
+    color: #FFFFFF;
+}
+.font-weight{
+    font-weight: 700;
+}
+
+@media only screen and (max-width:576px) {
+    .information .information-text{
+        text-align: center;
+    }
+    
+}
+@media only screen and (min-width:577px) and  (max-width:768px){
+    .information .information-text{
+        text-align: center;
+    }
+}
+    @media only screen and (min-width:769px) and  (max-width:992px){
+        .information .information-text{
+            text-align: center;
+        }
 }
