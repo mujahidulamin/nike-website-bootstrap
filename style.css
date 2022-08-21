@@ -40,23 +40,26 @@ h1 {
     padding: 10px 28px;
     color: #FFFFFF;
 }
-.font-weight{
+
+.font-weight {
     font-weight: 700;
 }
 
 @media only screen and (max-width:576px) {
-    .information .information-text{
+    .information .information-text {
         text-align: center;
     }
-    
+
 }
-@media only screen and (min-width:577px) and  (max-width:768px){
-    .information .information-text{
+
+@media only screen and (min-width:577px) and (max-width:768px) {
+    .information .information-text {
         text-align: center;
     }
 }
-    @media only screen and (min-width:769px) and  (max-width:992px){
-        .information .information-text{
-            text-align: center;
-        }
+
+@media only screen and (min-width:769px) and (max-width:992px) {
+    .information .information-text {
+        text-align: center;
+    }
 }
